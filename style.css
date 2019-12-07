@@ -3,6 +3,7 @@ body {
 }
 
 .dialog {
+    display: none;
     background-color: #ffffff;
     width: 600px;
     position: fixed;

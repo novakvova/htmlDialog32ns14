@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Dialog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="my.js"></script>
 </head>
 
 <body>
     <h1>
         Hello Peter
+        <i class="fa fa-spinner fa-pulse" aria-hidden="true"></i>
+        <span id ="tick_bomba">6</span>
     </h1>
 
-    <div class="dialog">
+    <h1>
+        Hello Peter ----------------
+    </h1>
+
+    <h1>
+        Hello Peter ----------------
+    </h1>
+
+    <div id="happy_dialog" class="dialog">
         <div class="header">
             <div class="title">
                 Вітаємо з Новим роком
             </div>
-            <div class="btn-close">
+            <div class="btn-close close_dialog">
                 &times;
             </div>
         </div>
@@ -34,8 +46,8 @@
         <div class="footer">
             <hr/>
             <div class="buttons">
-                <a href="#" class="danger">Хочу</a>
-                <a href="#">Потім</a>
+                <a href="#" class="danger close_dialog">Хочу</a>
+                <a href="#" class="close_dialog">Потім</a>
             </div>
         </div>
     
